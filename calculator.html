@@ -24,8 +24,17 @@ function inverse() {
 var num = document.getElementById("n1");
 
 num.value = 1/num.value;
+}
+
+function sin() {
+
+var num = document.getElementById("n1");
+
+num.value = Math.sin(num.value);
 
 }
+
+
 
 function cuatro() {
 
@@ -49,6 +58,7 @@ Number:
 <button onclick="square()"> x^2 </button>
 <button onclick="inverse()"> 1/x </button>
 <button onclick="cuatro()"> x^4 </button>
+<button onclick="sin()"> sin(x) </button>
 
 </body>
 
